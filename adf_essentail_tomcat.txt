@@ -1,0 +1,24 @@
+
+ https://dzone.com/articles/how-to-adf-essentials-12c-application-on-tomcat-8
+
+ https://blogs.oracle.com/dana/how-to-deploy-a-11g-adf-application-on-tomcat-6x
+ 
+ https://javamaster.wordpress.com/category/java-programming/
+
+ https://community.oracle.com/thread/958890
+ 
+ https://stackoverflow.com/questions/45460750/tomcat-cannot-find-gdk-custom-jar-oracle-cannot-create-it
+  
+ https://stackoverflow.com/questions/21628887/trying-to-deploy-oracle-adf-application-to-tomcat-7
+ 
+ 
+
+<Resource name="jdbc/ApplicationDB" auth="Container"
+                type="oracle.jdbc.pool.OracleDataSource"
+                driverClassName="oracle.jdbc.driver.OracleDriver"
+                factory="oracle.jdbc.pool.OracleDataSourceFactory"
+                url="jdbc:oracle:thin:@localhort:1521:orcl"
+                user="HR" password="hr" maxActive="20″ maxIdle="10″ maxWait="300″/>  
+				
+				
+
