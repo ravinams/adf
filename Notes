@@ -1,0 +1,3 @@
+
+
+set JAVA_OPTIONS= -Djava.net.preferIPv4Stack=true -DUseSunHttpHandler=true -Dhttp.proxySet=true -Dhttp.proxyHost=proxy.fcso.net  -Dhttp.proxyPort=8080 -Dhttp.proxyUser=k5n1 -Dhttp.proxyPassword=Pig$9871 -Dhttp.nonProxyHosts=localhost %JAVA_OPTIONS%
